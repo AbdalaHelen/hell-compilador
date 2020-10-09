@@ -7,3 +7,5 @@ START
 
 # Indicador de fim do programa
 GAMEOVER
+
+# 
