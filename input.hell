@@ -1,0 +1,5 @@
+START
+	float v1
+    call(v1)
+    show(v1)
+GAMEOVER
