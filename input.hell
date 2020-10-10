@@ -1,5 +1,29 @@
 START
-	float v1
+
+    float v1
+    float v2
+    float v3
+    float v4
+    float v5
+    float v6
+    float v7
+    float v8
+
     call(v1)
-    show(v1)
+    call(v2)
+
+    v3 = v1 + v2
+    v4 = v1 - v2
+    v5 = v1 * v2
+    v6 = v1 / v2
+    v7 = v1 ^ v2
+    v8 = sqrt(v1)
+
+    show(v3)
+    show(v4)
+    show(v5)
+    show(v6)
+    show(v7)
+    show(v8)
+
 GAMEOVER
