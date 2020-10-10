@@ -8,16 +8,16 @@ START
 ## Indicador de fim do programa
 GAMEOVER
 
-# Declaração de Variável
+## Declaração de Variável
 float
 
-# Leitura
+## Leitura
 call
 
-# Exibir 
+## Exibir 
 show
 
-# Operadores Matemáticos
+## Operadores Matemáticos
 
 [ = ] Atribuição
 
