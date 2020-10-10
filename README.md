@@ -9,24 +9,27 @@ START
 GAMEOVER
 
 # Declaração de Variável
+float
 
 # Leitura
+call
 
 # Exibir 
+show
 
 # Operadores Matemáticos
 
-[=] Atribuição
+[ = ] Atribuição
 
-[+] Soma
+[ + ] Soma
 
-[-] Subtração
+[ - ] Subtração
 
 [ / ] Divisão
 
 [ * ] Multiplicação
 
-[^] Exponenciação
+[ ^ ] Exponenciação
 
 [sqrt] Raiz Quadrada
 
