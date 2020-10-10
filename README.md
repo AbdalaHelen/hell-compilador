@@ -39,4 +39,8 @@ show(a); (exibe o valor da variável a)
 
 [sqrt] Raiz Quadrada
 
-#
+## Comentário
+^-^ 
+
+### Exemplo
+^-^ Comment here
