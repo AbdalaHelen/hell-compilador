@@ -11,11 +11,18 @@ GAMEOVER
 ## Declaração de Variável
 float
 
+
 ## Leitura
 call
 
+###Exemplo
+call(a); (atribui o valor da entrada)
+
 ## Exibir 
 show
+
+###Exemplo
+show(a); (exibe o valor da variável a)
 
 ## Operadores Matemáticos
 
