@@ -22,7 +22,7 @@ GAMEOVER
 
 [-] Subtração
 
-[/] Divisão
+[ / ] Divisão
 
 [ * ] Multiplicação
 
