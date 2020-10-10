@@ -2,6 +2,7 @@
 
 %}
 
+COMMENT "^-^"..*
 NUMBER [0-9]+\.?[0-9]*
 VAR [a-zA-Z]+[0-9]*
 SCAN "call"
@@ -12,7 +13,10 @@ INIT "START"
 END "GAMEOVER"
 %%
 
+
 {FLOAT} {return FLOAT;}
+
+{COMMENT} {return COMMENT;}
 
 {SCAN} {return SCAN;}
 

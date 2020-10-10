@@ -47,6 +47,7 @@ void yyerror (char *s){
 %token SCAN
 %token SQRT
 %token FLOAT
+%token COMMENT
 %token PRINT
 %token END
 %token INIT
@@ -68,7 +69,12 @@ cod: cod cmdos
 	|
 	;
 
-cmdos: SCAN '(' VAR ')' {
+cmdos: 
+	COMMENT {
+		printf("Comment\n");
+		}
+	|
+	 SCAN '(' VAR ')' {
             float aux;
             printf ("Enter a value: ");
             scanf ("%f", &aux);
