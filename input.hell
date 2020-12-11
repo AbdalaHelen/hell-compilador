@@ -10,21 +10,20 @@ START
     float v7
     float v8
 
-    call(v1)
-    call(v2)
+    callf(v1)
+    callf(v2)
 
     v3 = v1 + v2
     v4 = v1 - v2
     v5 = v1 * v2
     v6 = v1 / v2
     v7 = v1 ^ v2
-    v8 = sqrt(v1)
-
-    show(v3)
-    show(v4)
-    show(v5)
-    show(v6)
-    show(v7)
-    show(v8)
+    
+    showf(v3)
+    showf(v4)
+    showf(v5)
+    showf(v6)
+    showf(v7)
+    showf(v8)
 
 GAMEOVER
