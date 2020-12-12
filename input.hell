@@ -1,29 +1,18 @@
 START
-    ^-^ Comment Example 
 
-    float v1
-    float v2
-    float v3
-    float v4
-    float v5
-    float v6
-    float v7
-    float v8
+  float a
+  float b
+  float area
 
-    callf(v1)
-    callf(v2)
+  shows("Digite a base do triangulo: ")
+  callf(a)
 
-    v3 = v1 + v2
-    v4 = v1 - v2
-    v5 = v1 * v2
-    v6 = v1 / v2
-    v7 = v1 ^ v2
-    
-    showf(v3)
-    showf(v4)
-    showf(v5)
-    showf(v6)
-    showf(v7)
-    showf(v8)
+  shows("Digite a altura do triangulo: ")
+  callf(b)
+
+  shows("")
+  shows("A area do triangulo e: ")
+  area = (a * b) / 2
+  showf(area)
 
 GAMEOVER
