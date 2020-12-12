@@ -10,18 +10,24 @@ GAMEOVER
 
 ## Declaração de Variável
 float
+int
+string
 
 ## Leitura
-call
+callf (float)
+calli (int)
+calls (string)
 
 ### Exemplo
-call(a); (atribui o valor da entrada)
+callf(a); (atribui um valor float da entrada)
 
 ## Exibir 
-show
+showf (float)
+showi (int)
+shows (string)
 
 ### Exemplo
-show(a); (exibe o valor da variável a)
+showf(a); (exibe o valor float da variável a)
 
 ## Operadores Matemáticos
 
@@ -38,6 +44,12 @@ show(a); (exibe o valor da variável a)
 [ ^ ] Exponenciação
 
 [sqrt] Raiz Quadrada
+
+## Condicionais
+
+if
+else
+while
 
 ## Comentário
 ^-^ 
